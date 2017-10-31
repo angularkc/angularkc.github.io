@@ -1,0 +1,37 @@
+:host {
+    display: flex;
+    flex: 1;
+  }
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-dark { color: rgba(48, 48, 48, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(48,48, 48, 0.26); }
+
+.email-icon {
+    font-size: 20px;
+}
+
+.social-icon { 
+    font-size: 24px; 
+}
+
+.title-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.sub-title {
+    font-size: 36px;
+}
+
+.text {
+    margin: 5px;
+}
