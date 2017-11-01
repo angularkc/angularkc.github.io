@@ -1,4 +1,4 @@
-<div fxLayout="column" fxFlex fxLayoutAlign="space-between" fxLayoutGap="10px">
+<div fxLayout="column" fxFlex fxLayoutAlign="space-between" fxLayoutGap="10px" fxLayoutGap.xs="0">
   <mat-toolbar color="primary" fxLayoutAlign="center" class="title">
     <mat-icon svgIcon="angular" class="title-icon" aria-hidden="true"></mat-icon>
     <span>Angular KC</span>
@@ -14,13 +14,13 @@
   </mat-card>
 
   <mat-toolbar class="sub-title sub-toolbar" color="accent">Contact Us</mat-toolbar>
-  <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center" fxLayout.sm="column">
+  <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center" fxLayout.sm="column" fxLayout.xs="column">
     <a mat-button href="mailto:angularkc@gmail.com" target="_top">
       <mat-icon fontSet="fontawesome" fontIcon="fa-envelope-open" class="email-icon fa-fw"></mat-icon>
       <span>Email</span>
     </a>
     <a mat-button *ngFor="let socialContact of socialContacts" href="{{socialContact.url}}" target="_blank">
-        <mat-icon fontSet="fontawesome" fontIcon="{{socialContact.logoUrl}}" class="social-icon fa-fw"></mat-icon>
+        <mat-icon fontSet="fontawesome" fontIcon="{{socialContact.logoUrl}}" class="social-icon fa-fw" aria-hidden="true"></mat-icon>
         <span>{{socialContact.name}}</span>
     </a>
   </div>
