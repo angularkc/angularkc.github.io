@@ -2,11 +2,12 @@
 
 This repo contains the code for organization's web page.
 
-## Code structure
-Make changes in ./angularkc/* directory
+## How to run
+`npm install`
+`npm start` or `ng serve`
 
 ## How to build and publish
-Run `npm run build-prod` prior to commiting changes
+Run `npm run build-prod` prior to pushing changes to master to generate and copy dist output to correct location for gh pages.
 
 
 ## TODO Notes
