@@ -1,0 +1,124 @@
+// @import '../theme.scss'; // This is an ugly way to do it but for now...
+// @import '~@angular/material/theming';
+
+:host {
+  display: flex;
+  flex: 1;
+}
+
+// @mixin app-theme($theme) {
+
+  // $primary: map-get($theme, primary);
+
+
+
+  .title-background {
+    background: #000051;
+
+  }
+
+  .title-headline {
+    padding-top: 25px;
+    padding-bottom: 75px;
+    display: inline-block;
+    position: relative;
+
+    // margin: 0 auto;
+    //position: absolute;
+    // vertical-align: top;
+
+    color: #eeeeee;
+    h1 {
+        //font-size: 72px;
+        font-size: 6vw;
+        font-weight: 300;
+        line-height: 56px;
+        margin: 35px 0px 0px 25px;
+        // display: inline;
+        //position: absolute;
+        // transform: translate(-75%);
+        top: 30%;
+        //left: 50%;
+        // vertical-align: top;
+      }
+  }
+
+  .section-title-background {
+    background: #005b9f;
+    color: #eeeeee;
+    h2 {
+        font-size: 48px;
+        font-weight: 200;
+        line-height: 56px;
+        margin: 15px 15px;
+        //display: inline;
+      }
+}
+// }
+
+  .title-icon {
+    //display: block;
+    // padding: 25px 0px 25px 0px;
+    // position: absolute;
+    /* width:100%;
+    height:100%; */
+    // position: relative;
+    // top: 50%;
+    // transform: translate(50%);
+    width: 125px;
+    height: 125px;
+    // vertical-align: top;
+}
+
+.title-social {
+    padding-bottom: 50px;
+}
+
+.meetup-hero {
+  background:#212121;
+  img {
+    max-width: 100%;
+    height: auto;
+    -webkit-filter: blur(5px) grayscale(100%) brightness(0.5);
+    filter: blur(5px) grayscale(100%) brightness(0.5);
+  }
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-dark { color: rgba(48, 48, 48, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(48,48, 48, 0.26); }
+
+.email-icon {
+    font-size: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+}
+
+.social-contrast {
+  color: #cfd8dc;
+}
+
+
+// .title {
+//     font-size: 12vh;
+//     height: 12vh;
+//     padding: 8% 0;
+// }
+
+/* mat-toolbar {
+    height: 100px;
+} */
+
+.sub-title {
+    font-size: 36px;
+}
+
+.text {
+    margin: 5px;
+}

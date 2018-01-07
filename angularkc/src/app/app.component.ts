@@ -6,10 +6,10 @@ import { DomSanitizer } from '@angular/platform-browser';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  
+
   public socialContacts: ISocial[] = [
     {
       name: 'Twitter',
@@ -23,7 +23,7 @@ export class AppComponent {
   },
   {
     name: 'Meetup',
-    url: 'https://www.meetup.com/angular-kc/',
+    url: 'https://www.meetup.com/angularkc/',
     logoUrl: 'fa-meetup'
   },
   {
@@ -33,7 +33,7 @@ export class AppComponent {
   },
   {
     name: 'Slack',
-    url: 'https://angular-kc.slack.com',
+    url: 'https://angularkc.slack.com',
     logoUrl: 'fa-slack'
   }
   ];
@@ -43,5 +43,5 @@ export class AppComponent {
       .addSvgIcon('angular', sanitizer.bypassSecurityTrustResourceUrl('assets/angular.svg'))
       .registerFontClassAlias('fontawesome', 'fa');
   }
-  
+
 }

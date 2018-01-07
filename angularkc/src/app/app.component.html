@@ -1,27 +1,71 @@
-<div fxLayout="column" fxFlex fxLayoutAlign="space-between" fxLayoutGap="10px" fxLayoutGap.xs="0">
-  <mat-toolbar color="primary" fxLayoutAlign="center" class="title">
-    <mat-icon svgIcon="angular" class="title-icon" aria-hidden="true"></mat-icon>
-    <span>Angular KC</span>
-  </mat-toolbar>
+<div fxLayout="column" fxFlex fxLayoutAlign="space-between" fxLayoutGap="3px" fxLayoutGap.xs="0">
+  <div class="title-background">
+    <!-- <div class="title-section"> -->
+    <div class="title-headline" fxLayoutAlign="center">
+      <mat-icon svgIcon="angular" class="title-icon" aria-hidden="true"></mat-icon>
+      <h1 class="mat-h1">Angular KC</h1>
 
-  <mat-toolbar class="sub-title sub-toolbar" color="accent">Our Goals</mat-toolbar>
+    </div>
+    <!-- </div> -->
+
+    <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center" fxLayout.sm="column" fxLayout.xs="column" class="title-social social-contrast">
+      <a mat-button href="mailto:angularkc@gmail.com" target="_top">
+        <mat-icon fontSet="fontawesome" fontIcon="fa-envelope-open" class="email-icon fa-fw"></mat-icon>
+        <span>Email</span>
+      </a>
+      <a mat-button *ngFor="let socialContact of socialContacts" href="{{socialContact.url}}" target="_blank">
+        <mat-icon fontSet="fontawesome" fontIcon="{{socialContact.logoUrl}}" class="social-icon fa-fw" aria-hidden="true"></mat-icon>
+        <span>{{socialContact.name}}</span>
+      </a>
+    </div>
+  </div>
+
+    <app-about></app-about>
+
+
+
+  <!-- <mat-toolbar color="primary" fxLayoutAlign="center" class="title"> -->
+  <!-- <div fxLayoutAlign="center" class="title"> -->
+  <!-- <mat-icon svgIcon="angular" class="title-icon" aria-hidden="true"></mat-icon>
+        <span>Angular KC</span> -->
+  <!-- </div> -->
+
+  <!-- </mat-toolbar> -->
+  <div fxLayout="column">
+    <div class="section-title-background">
+      <h2 class="mat-h2">Check Out An Upcoming Meetup</h2>
+    </div>
+    <app-meetups></app-meetups>
+  </div>
+
+  <!-- <div>
+    <div class="section-title-background">
+      <h2 class="mat-h2">Join Our Slack Channel</h2>
+    </div>
+  </div> -->
+
+  <!-- <mat-toolbar class="sub-title sub-toolbar" color="accent">Our Goals</mat-toolbar>
   <mat-card>
       <p>This group is a community of web-developers who focus and have interest in the Angular framework.</p>
 
     Join us as we leverage the power of community to strengthen our development skills and gain insights into best practices.
-    We will be hosting regular training, discussion, and networking events. 
+    We will be hosting regular training, discussion, and networking events.
     If you would like to present, host, or in any way volunteer in these events, please reach out to us.
-  </mat-card>
+  </mat-card> -->
 
-  <mat-toolbar class="sub-title sub-toolbar" color="accent">Contact Us</mat-toolbar>
-  <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center" fxLayout.sm="column" fxLayout.xs="column">
-    <a mat-button href="mailto:angularkc@gmail.com" target="_top">
-      <mat-icon fontSet="fontawesome" fontIcon="fa-envelope-open" class="email-icon fa-fw"></mat-icon>
-      <span>Email</span>
-    </a>
-    <a mat-button *ngFor="let socialContact of socialContacts" href="{{socialContact.url}}" target="_blank">
-        <mat-icon fontSet="fontawesome" fontIcon="{{socialContact.logoUrl}}" class="social-icon fa-fw" aria-hidden="true"></mat-icon>
-        <span>{{socialContact.name}}</span>
-    </a>
+  <div class="section-title-background">
+    <h2>
+        Connect With Us
+    </h2>
+    <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center" fxLayout.sm="column" fxLayout.xs="column">
+        <a mat-button href="mailto:angularkc@gmail.com" target="_top">
+          <mat-icon fontSet="fontawesome" fontIcon="fa-envelope-open" class="email-icon fa-fw"></mat-icon>
+          <span>Email</span>
+        </a>
+        <a mat-button *ngFor="let socialContact of socialContacts" href="{{socialContact.url}}" target="_blank">
+          <mat-icon fontSet="fontawesome" fontIcon="{{socialContact.logoUrl}}" class="social-icon fa-fw" aria-hidden="true"></mat-icon>
+          <span>{{socialContact.name}}</span>
+        </a>
+      </div>
   </div>
 </div>

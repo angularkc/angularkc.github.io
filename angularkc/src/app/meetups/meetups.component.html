@@ -1,0 +1,10 @@
+<mat-list fxFlex fxLayout="column" fxLayoutAlign="space-between" fxLayoutGap="10px">
+  <mat-list-item *ngFor="let meetup of upcomingMeetups" class="meetup-event-section">
+    <h3 matLine>{{meetup.name}}</h3>
+    <h4 matLine>{{meetup.venue.name}}</h4>
+    <h4 matLine>{{meetup.time | date:'medium'}}</h4>
+    <div matLine>
+      <p [innerHTML]="meetup.description | allowHtml"> </p>
+    </div>
+  </mat-list-item>
+</mat-list>

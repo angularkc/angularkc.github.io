@@ -1,0 +1,32 @@
+:host {
+    display: flex;
+    flex: 1;
+  }
+
+  .about {
+      position: relative;
+      display: inline-block;
+      padding-bottom: 50px;
+      background:#212121;
+  }
+
+  .about img {
+    max-width: 100%;
+    height: auto;
+    -webkit-filter: blur(5px) grayscale(100%) brightness(0.5);
+    filter: blur(5px) grayscale(100%) brightness(0.5);
+    display: block
+  }
+
+.text {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  transform: translate(0, 50%);
+  text-align: center;
+  color: #e0e0e0;
+  font-size: 2vw;
+}
+
+

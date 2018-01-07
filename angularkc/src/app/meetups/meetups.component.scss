@@ -1,0 +1,24 @@
+:host {
+    display: flex;
+    flex: 1;
+  }
+
+.meetup-event-section {
+    h3 {
+        font-size: 2vw;
+        font-weight: 100;
+        line-height: 3vw; 
+    }
+
+    h4 {
+        font-size: 1vw !important;
+        font-weight: 50;
+        line-height: 2vw;
+    }
+
+    background: rgba(0, 0, 0, 0.03);
+}
+
+mat-list-item {
+    padding: 15px;
+}
