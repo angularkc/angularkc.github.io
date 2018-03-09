@@ -1,48 +1,5 @@
 [
   {
-      "created": 1510605084000,
-      "duration": 7200000,
-      "id": "245085926",
-      "name": "How to level up your Angular test tooling",
-      "status": "upcoming",
-      "time": 1518568200000,
-      "local_date": "2018-02-13",
-      "local_time": "18:30",
-      "updated": 1517956785000,
-      "utc_offset": -21600000,
-      "waitlist_count": 0,
-      "yes_rsvp_count": 23,
-      "venue": {
-          "id": 25610711,
-          "name": "Sprint Accelerator",
-          "lat": 39.090328216552734,
-          "lon": -94.58678436279297,
-          "repinned": false,
-          "address_1": "210 W 19 Terrace",
-          "city": "Kansas City",
-          "country": "us",
-          "localized_country_name": "USA",
-          "zip": "",
-          "state": "MO"
-      },
-      "group": {
-          "created": 1508170677000,
-          "name": "Angular KC",
-          "id": 26284491,
-          "join_mode": "open",
-          "lat": 39.099998474121094,
-          "lon": -94.5999984741211,
-          "urlname": "angularkc",
-          "who": "Angulaires",
-          "localized_location": "Kansas City, MO",
-          "region": "en_US"
-      },
-      "link": "https://www.meetup.com/angularkc/events/245085926/",
-      "description": "<p>Are you running Angular unit tests using the CLI and thinking of ways to make it more awesome? Are you ready to take your testing tooling to the next level? Join us as we present ways to add power to testing Angular.</p> <p>If you want to follow along with the presentation follow the Readme instructions here: <a href=\"https://github.com/angularkc/test-tooling\" class=\"linkified\">https://github.com/angularkc/test-tooling</a></p> ",
-      "how_to_find_us": "The door is around back. You'll see an Angular sign with instructions to press a button to have someone let you in.",
-      "visibility": "public"
-  },
-  {
       "created": 1517437259000,
       "duration": 5400000,
       "id": "247360870",
@@ -51,21 +8,21 @@
       "time": 1520983800000,
       "local_date": "2018-03-13",
       "local_time": "18:30",
-      "updated": 1517773987000,
+      "updated": 1520389805000,
       "utc_offset": -18000000,
       "waitlist_count": 0,
-      "yes_rsvp_count": 2,
+      "yes_rsvp_count": 23,
       "venue": {
-          "id": 19024172,
-          "name": "Location TBA",
-          "lat": 39.10295104980469,
-          "lon": -94.58307647705078,
+          "id": 13476772,
+          "name": "Google Fiber Space Lounge",
+          "lat": 39.0506591796875,
+          "lon": -94.60702514648438,
           "repinned": false,
-          "address_1": "Location TBA",
+          "address_1": "1814 Westport Road",
           "city": "Kansas City",
           "country": "us",
           "localized_country_name": "USA",
-          "zip": "",
+          "zip": "64111",
           "state": "MO"
       },
       "group": {
@@ -81,7 +38,39 @@
           "region": "en_US"
       },
       "link": "https://www.meetup.com/angularkc/events/247360870/",
-      "description": "<p>• What we'll do<br/>There are many ways to manage your routes in an Angular application. In this talk, we will discuss the basics, modularization, and lazy-loading.</p> <p>Come join us! Eat, drink, network, and begin your journey to becoming a routing guru.</p> <p>• What to bring<br/>Yourself and your colleagues.</p> <p>• Important to know<br/>Here are some resources to get your feet wet:<br/>~ Angular Routing - Victor Savkin: <a href=\"https://www.youtube.com/watch?v=QLns6s02O48\" class=\"embedded\">https://www.youtube.com/watch?v=QLns6s02O48</a><br/>~ Wildcard and Redirects: <a href=\"https://www.youtube.com/watch?v=QC6wRxXT26I\" class=\"embedded\">https://www.youtube.com/watch?v=QC6wRxXT26I</a><br/>~ Routing Params: <a href=\"https://www.youtube.com/watch?v=qh5nHv-4aw0\" class=\"embedded\">https://www.youtube.com/watch?v=qh5nHv-4aw0</a><br/>~ Optional Params: <a href=\"https://www.youtube.com/watch?v=gnTFkl2AF-w\" class=\"embedded\">https://www.youtube.com/watch?v=gnTFkl2AF-w</a><br/>~ Router Auth: <a href=\"https://www.youtube.com/watch?v=yjxOYsRkozQ\" class=\"embedded\">https://www.youtube.com/watch?v=yjxOYsRkozQ</a><br/>~ Lazy Loading: <a href=\"https://www.youtube.com/watch?v=V-1Fq_mAl20\" class=\"embedded\">https://www.youtube.com/watch?v=V-1Fq_mAl20</a></p> ",
+      "description": "<p>• What we'll do<br/>There are many ways to manage your routes in an Angular application. In this talk, we will discuss the basics, modularization, and lazy-loading.</p> <p>In addition to our main talk, we will also have a lightning talk on 'Effective Code Reviews'.</p> <p>Come join us! Eat, drink, network, and begin your journey to becoming a routing guru.</p> <p>• What to bring<br/>Yourself and your colleagues.</p> <p>• Important to know<br/>Here are some resources to get your feet wet:<br/>~ Angular Routing - Victor Savkin: <a href=\"https://www.youtube.com/watch?v=QLns6s02O48\" class=\"embedded\">https://www.youtube.com/watch?v=QLns6s02O48</a><br/>~ Wildcard and Redirects: <a href=\"https://www.youtube.com/watch?v=QC6wRxXT26I\" class=\"embedded\">https://www.youtube.com/watch?v=QC6wRxXT26I</a><br/>~ Routing Params: <a href=\"https://www.youtube.com/watch?v=qh5nHv-4aw0\" class=\"embedded\">https://www.youtube.com/watch?v=qh5nHv-4aw0</a><br/>~ Optional Params: <a href=\"https://www.youtube.com/watch?v=gnTFkl2AF-w\" class=\"embedded\">https://www.youtube.com/watch?v=gnTFkl2AF-w</a><br/>~ Router Auth: <a href=\"https://www.youtube.com/watch?v=yjxOYsRkozQ\" class=\"embedded\">https://www.youtube.com/watch?v=yjxOYsRkozQ</a><br/>~ Lazy Loading: <a href=\"https://www.youtube.com/watch?v=V-1Fq_mAl20\" class=\"embedded\">https://www.youtube.com/watch?v=V-1Fq_mAl20</a></p> ",
+      "visibility": "public"
+  },
+  {
+      "created": 1519953980000,
+      "duration": 5400000,
+      "id": "248319390",
+      "name": "Build a form in minutes using Angular Reactive Forms",
+      "status": "upcoming",
+      "time": 1523489400000,
+      "local_date": "2018-04-11",
+      "local_time": "18:30",
+      "updated": 1519954026000,
+      "utc_offset": -18000000,
+      "waitlist_count": 0,
+      "yes_rsvp_count": 5,
+      "venue": {
+        "name": "TBA"
+      },
+      "group": {
+          "created": 1508170677000,
+          "name": "Angular KC",
+          "id": 26284491,
+          "join_mode": "open",
+          "lat": 39.099998474121094,
+          "lon": -94.5999984741211,
+          "urlname": "angularkc",
+          "who": "Angulaires",
+          "localized_location": "Kansas City, MO",
+          "region": "en_US"
+      },
+      "link": "https://www.meetup.com/angularkc/events/248319390/",
+      "description": "<p>• What we'll do<br/>We’ll build a standard-but-tricky Reactive form from scratch in less than 10 minutes!</p> <p>---<br/>We have a special speaker tonight:<br/>Lyndsey Padget- founder of Longplay Software in Kansas City.</p> <p>• What to bring</p> <p>• Important to know</p> ",
       "visibility": "public"
   }
 ]
